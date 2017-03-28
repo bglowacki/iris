@@ -147,7 +147,7 @@ class App extends React.Component{
 
 		return (
 			<div className={className}>
-		        <Sidebar />		        
+		        <Sidebar />
 		        <MiniPlayer />
 		        <main>
 		      		{this.props.children}

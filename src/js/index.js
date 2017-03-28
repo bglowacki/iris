@@ -10,7 +10,7 @@ import { Router, Route, Link, IndexRoute, hashHistory } from 'react-router'
 import ReactGA from 'react-ga'
 
 import store from './bootstrap.js'
-require('../scss/app.scss');
+import '../scss/app.scss';
 
 import App from './views/App'
 import Album from './views/Album'
